@@ -1,0 +1,190 @@
+html,body{height: 100%}
+html {font-family: '微软雅黑', Helvetica, STHeiTi, Arial, sans-serif; -webkit-text-size-adjust: 100%;font-size: 64px;}
+*{-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0;padding: 0;}
+body{-webkit-overflow-scrolling: touch;font-size: 0.38rem;}
+em{font-style: normal}
+article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {display: block}
+audio, canvas, progress, video { display: inline-block; vertical-align: baseline}
+audio:not([controls]) { display: none; height: 0}
+svg:not(:root) {overflow: hidden}
+a{background: transparent; text-decoration: none; -webkit-tap-highlight-color: transparent;color: #333333}
+a:active{background: transparent}
+img{border: 0; vertical-align: middle}
+body,button, input,select, textarea,h1, h2, h3, h4, h5, p, form, blockquote,ul, ol, li, dl, dd {margin: 0}
+button {overflow: visible}
+button, select {text-transform: none}
+input[type="search"] {-webkit-appearance: textfield;-webkit-box-sizing: border-box; box-sizing: border-box}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration,input[type=text] {-webkit-appearance: none}
+textarea {overflow: auto; resize: vertical}
+table {border-collapse: collapse; border-spacing: 0}
+ul, ol, li, dl, dd,td, th{padding: 0}
+ul, ol {list-style: none}
+h1, h2, h3{font-weight: normal}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {color: #ccc;font-family: '微软雅黑'}
+input[type=button], input[type=submit], input[type=file], button { cursor: pointer; -webkit-appearance: none;border-radius:0;}
+.fl{float: left;}
+.fr{float: right;}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+.jiazai{
+    text-align: center;
+    padding: 0.5rem 0;
+    color: #9c9b9b;
+    font-size: 0.34rem;
+}
+.jiazai a{
+    color: #9c9b9b;
+}
+
+/*园区动态*/
+.park-adv{
+    border-top:1px solid #c8c8c8;
+    border-bottom:1px solid #c8c8c8;
+
+}
+.park-adv .x-right{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.park-adv .park-nav{
+    width: 100%;
+    /*float: left;*/
+
+
+}
+.x-right{
+    border-right:1px solid #c8c8c8;
+
+}
+.park-adv .park-nav .xian{
+    display: inline-block;
+    padding:0.3rem 0;
+
+}
+.park-adv .park-nav .xian.bai{
+
+    color: #333;
+    border-bottom: 0.1rem solid #fff;
+}
+.park-adv .park-nav .xian.blue{
+
+    color: #386ed8;
+    border-bottom: 0.1rem solid #386ed8;
+}
+
+.park-nav .xian p{
+    display: inline-block;
+    font-size: 0.4rem;
+
+}
+.park-info{
+    margin:0 0.47rem;
+}
+.park-info h3{
+    font-size:0.4rem;
+    color: #221815;
+}
+.park-info .park-line{
+    padding:0.3rem 0.23rem;
+    border-bottom: 1px solid #c8c8c8;
+}
+.park-info p{
+    color: #636161;
+    font-size:0.28rem ;
+    margin-top: 0.05rem;
+}
+/*园区详情页*/
+.adv-info {
+    border-bottom: 1px solid #c8c8c8;
+    padding:0.55rem 0.36rem;
+}
+.adv-info h3{
+    color: #221815;
+    font-size: 0.44rem;
+
+}
+.adv-info p{
+    color: #615d5d;
+    font-size: 0.375rem;
+    margin-top: 0.1rem;
+}
+.adv-con{
+    margin:0.4rem;
+}
+.adv-con img{
+    width:9.2rem ;
+    height: 4.86rem;
+    margin-bottom: 0.4rem;
+
+}
+.adv-con p{
+    text-indent: 2em;
+    line-height: 0.62rem;
+    margin-bottom:0.2rem ;
+    color: #221815;
+    font-size: 0.375rem;
+}
+/*园区介绍*/
+.jieshao p{
+    text-indent: 2em;
+    line-height: 0.62rem;
+   margin-top: 0;
+    color: #221815;
+    font-size: 0.375rem;
+}
+.jieshao-title{
+    padding-bottom: 0.4rem;
+}
+.jieshao img{
+    width:9.17rem;
+    height:5.84rem;
+    margin:0.4rem 0;
+;}
+/*消息中心*/
+.message{
+    margin:0 0.6rem ;
+    padding:0.4rem 0;
+    border-bottom: 1px solid #c8c8c8;
+
+}
+.message h3{
+    color: #221815;
+    font-size: 0.44rem;
+}
+.message h3 .dian{
+    display: inline-block;
+    width: 0.3rem;
+    height: 0.31rem;
+    background-color: #e60012;
+    border-radius: 50%;
+    margin-top: 0.05rem;
+    margin-right: 0.05rem;
+}
+.message p{
+    color: #636161;
+    font-size: 0.375rem;
+    margin-top: 0.1rem;
+}
+.message p span{
+    color: #636161;
+    font-size: 0.31rem;
+}
+/*消息详情*/
+.message-info li{
+    padding:0.31rem 0.55rem;
+    color: #333;
+    font-size:0.44rem ;
+    border-bottom: 1px solid #c8c8c8;
+}
+.message-info li span{
+    color: #a7a6a6;
+    font-size:0.375rem ;
+}
+
+.message-info li span .img3{
+    width: 0.59rem;
+    height: 0.55rem;
+    margin-right: 0.1rem;
+    margin-top: -0.05rem;
+}
